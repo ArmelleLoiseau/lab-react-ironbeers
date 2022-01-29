@@ -28,6 +28,149 @@
   color: #61dafb;
 }
 
+a {
+  text-decoration: none;
+}
+
+
+.home-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-container {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: black;
+}
+
+.home-container img {
+  width: 70vw;
+}
+
+.home-container h2, p {
+  padding-left: 20px;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.home-container h2 {
+  margin-bottom: 5px;
+}
+
+.home-container p {
+  margin-bottom: 25px;
+}
+
+.header {
+  background-color: rgb(7, 175, 218);
+  font-size: 40px;
+  padding: 5px 0
+}
+
+.fa-home {
+  color: white;
+}
+
+.search-bar {
+  width: 20vw;
+  margin: auto;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.beer-card-inside {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start ;
+  border-bottom: 1px solid grey;
+  padding: 20px;
+}
+
+.beer-card img {
+  height: 150px;
+}
+
+.beer-card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 30px;
+  color: black
+}
+
+.beer-card-text h4 {
+  color: grey;
+}
+
+.beer-card-text p {
+  padding-left: 0;
+}
+
+.one-beer img {
+  height: 60vh;
+}
+
+.one-beer {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  margin-top: 20px
+}
+
+.one-beer img {
+  margin: auto
+}
+
+.one-beer-top-text .first-line, .second-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.attenuation-level {
+  color: grey;
+}
+
+.tagline {
+  color: grey;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.form input {
+  border-radius: 15px;
+  height: 20px;
+}
+
+.form textarea {
+  border-radius: 15px;
+}
+
+.form label {
+  font-weight: bold;
+  text-align: left;
+}
+
+.form button {
+  background-color: rgb(7, 175, 218);
+  color: white;
+  border-radius: 15px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
